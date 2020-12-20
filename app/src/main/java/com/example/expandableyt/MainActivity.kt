@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             .setIsolateViewTypes(false)
             .build()
 
-        val concatAdapter = ConcatAdapter(concatAdapterConfig, arrayList)
+            val concatAdapter = ConcatAdapter(concatAdapterConfig, arrayList)
         recyclerView.layoutManager = LinearLayoutManager(baseContext)
         recyclerView.adapter = concatAdapter
     }
